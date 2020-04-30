@@ -15,7 +15,7 @@ function mapToSquare(source) {
   return source.map(num => num**2)
 }
 
-function reduceToTotal(source, starting) {
+function reduceToTotal(source, starting = 0) {
   return source.reduce(function(total, element){ return total + element}, starting)
 }
 
