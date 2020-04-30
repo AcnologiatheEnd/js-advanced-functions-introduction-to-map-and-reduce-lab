@@ -17,5 +17,8 @@ function mapToSquare(source) {
 
 function reduceToTotal(source, starting) {
   init = starting
+  source.reduce(function(init, ))
   
 }
+
+//let doubledAndSummed = [1, 2, 3].reduce(function(total, element){ return element * 2 + total})
