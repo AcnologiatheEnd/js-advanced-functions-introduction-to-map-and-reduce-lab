@@ -16,9 +16,7 @@ function mapToSquare(source) {
 }
 
 function reduceToTotal(source, starting) {
-  init = starting
-  source.reduce(function(init, ))
-  
+  source.reduce(function(total, element){ return total + element}, starting)
 }
 
-//let doubledAndSummed = [1, 2, 3].reduce(function(total, element){ return element * 2 + total})
+//let totalBatteries = batteryBatches.reduce(function(total, batch){ return batch + total}, 0)
