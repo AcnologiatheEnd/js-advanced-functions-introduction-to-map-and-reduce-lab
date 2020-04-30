@@ -27,4 +27,8 @@ function reduceToAllTrue(source) {
   }
   return true
 }
+
+function reduceToAnyTrue(source) {
+  fo
+}
 //let totalBatteries = batteryBatches.reduce(function(total, batch){ return batch + total}, 0)
