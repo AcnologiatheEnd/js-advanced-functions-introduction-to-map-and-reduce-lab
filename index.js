@@ -14,3 +14,8 @@ function mapToDouble(source) {
 function mapToSquare(source) {
   return source.map(num => num**2)
 }
+
+function reduceToTotal(source, starting) {
+  init = starting
+  
+}
