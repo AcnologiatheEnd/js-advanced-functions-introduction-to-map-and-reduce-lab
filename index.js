@@ -20,6 +20,6 @@ function reduceToTotal(source, starting = 0) {
 }
 
 function reduceToAllTrue(source) {
-  return source.reduce(function(total, element){ return total + element})
+  return source.reduce(function(total, element){ return total + element.value})
 }
 //let totalBatteries = batteryBatches.reduce(function(total, batch){ return batch + total}, 0)
