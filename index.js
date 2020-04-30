@@ -20,8 +20,8 @@ function reduceToTotal(source, starting = 0) {
 }
 
 function reduceToAllTrue(source) {
-  for (let i = 0; i < sourceArray.length; i++) {
-    if (!sourceArray[i]) {
+  for (let i = 0; i < source.length; i++) {
+    if (!source[i]) {
       return false
     }
   }
