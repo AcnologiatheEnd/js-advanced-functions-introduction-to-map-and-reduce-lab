@@ -22,4 +22,13 @@ function reduceToTotal(source, starting = 0) {
 function reduceToAllTrue(source) {
   return source.reduce(function(total, element){ return total + element.value})
 }
+
+{
+  for (let i = 0; i < sourceArray.length; i++) {
+    if (!sourceArray[i]) {
+      return false
+    }
+  }
+  return true
+}
 //let totalBatteries = batteryBatches.reduce(function(total, batch){ return batch + total}, 0)
