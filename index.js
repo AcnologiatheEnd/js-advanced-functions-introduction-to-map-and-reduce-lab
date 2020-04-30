@@ -1,7 +1,7 @@
 // Your code here
 function mapToNegativize(source) {
   
-  source.map (each) {
-    return -each
-  }
+  source.map( function(each) {
+    return each * -1
+  }) 
 }
